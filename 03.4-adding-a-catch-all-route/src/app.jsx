@@ -4,6 +4,7 @@ import RootLayout from './root-layout'
 import './app.css'
 
 export default function App() {
+  console.log('fileroutes', FileRoutes())
   return (
     <div class="app">
       <div class="filename-lg">app.jsx</div>
