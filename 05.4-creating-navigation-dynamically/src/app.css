@@ -1,0 +1,121 @@
+body {
+  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 4px;
+}
+
+code {
+  font-family: "Ubuntu Mono", "Courier New", Courier, monospace;
+  font-weight: 400;
+  background-color: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: .25rem;
+  opacity: 80%;
+}
+
+h1 {
+  color: #335d92;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.1;
+}
+
+.component {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.4);
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1.5rem 0;
+  white-space: nowrap;
+  gap: 10px;
+}
+
+a {
+  color: #0d6efd;
+  color: inherit;
+  appearance: button;
+  border: 2px solid #0d6efd;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  line-height: 1.5em;
+  padding: 0.25em 0.5em;
+  transition-duration: 0.15s 0.15s 0.15s 0.15s;
+  transition-property: color background-color border-color box-shadow;
+  transition-timing-function: ease-in-out ease-in-out ease-in-out ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.app {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.4);
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+}
+
+.btn-active {
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.4);
+}
+
+.btn-inactive {
+  background-color: #fff;
+  color: #0d6efd;
+  font-weight: normal;
+}
+
+.filename {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-weight: 1000;
+  font-size: 1.1rem;
+}
+
+div.filename:nth-child(2) {
+  margin-top: 5px;
+}
+
+.filename-lg {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.component-subtitle {
+  margin: 10px 0 20px 0;
+  font-weight: 600;
+}
+
+.root-layout {
+  background-color: #ebebeb;
+  color: rgb(83, 83, 83);
+}
+
+.blue-layout {
+  background-color: #9FD5FE;
+  padding: 15px;
+}
+
+.purple-layout {
+  background-color: #D79FFD;
+  padding: 15px;
+}
+
+.periwinkle-layout {
+  background-color: #B9CBFE;
+  padding: 15px;
+}
